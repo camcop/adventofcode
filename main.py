@@ -1,4 +1,3 @@
-
 def import_input_file():
     with open('input.txt') as f:
         lines = f.readlines()
