@@ -5,23 +5,15 @@ def import_input_file():
     return input_list
 
 
-def count_increases(input: list):
+def count_increases(input: list, offset: int):
     inc_count = 0
     for i, num in enumerate(input):
-        if num > input[i - 1]:
-            inc_count += 1
-    return inc_count
-
-
-def count_rolling_threes_increases(input: list):
-    inc_count = 0
-    for i, num in enumerate(input):
-        if num > input[i - 3]:
+        if num > input[i - offset]:
             inc_count += 1
     return inc_count
 
 
 if __name__ == '__main__':
     input = import_input_file()
-    print(count_increases(input))
-    print(count_rolling_threes_increases(input))
+    print(count_increases(input, 1))
+    print(count_increases(input, 3))
