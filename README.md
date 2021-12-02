@@ -1,3 +1,4 @@
-# adventofcode2021-day1
+# adventofcode
 Advent of code solutions
-https://aoc.zerotomastery.io/leaderboard
+hhttps://adventofcode.com
+ttps://aoc.zerotomastery.io/leaderboard
