@@ -1,5 +1,5 @@
 def import_input_file():
-    with open('input.txt') as f:
+    with open('./2021/day1/input.txt') as f:
         lines = f.readlines()
         input_list = [int(line.strip()) for line in lines]
     return input_list
